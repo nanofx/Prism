@@ -1,8 +1,40 @@
 body {
+  color: #000000;
+  background-color: #282828;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #B4CFEC;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#myStyle{
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  width: auto;
+  color: #ffffff;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#myTitle{
+  margin: auto;
+  color: #ffffff;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#imageStyle{
+  max-width: 1%;
+  max-height: 1%;
+  position: inherit;
+  top: 0px;
+  left: 0px;
+}
+
+#logoText{
+  color: #ffffff;
+  padding: 8px;
+  font: 70px "Lucida Grande", Helvetica, Arial, sans-serif;
 }

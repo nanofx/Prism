@@ -1,14 +1,16 @@
 extends layout
-
+<link type="text/css" rel="stylesheet" href="public/stylesheets/style.css" />
 block content
-  //TYLER: if user isn't logged in
   if (!user)
     a(href="/login") Login
     br
     a(href="/register") Register
-  //TYLER: if the user is logged in
   if (user)
-    //TYLER: display who you are logged in as
-    p You are currently logged in as #{user.username}
-    p TITLE: #{user.title}
+    #logoText
+      .lead prism
+    #myStyle
+      p
+      h1 #{user.username}
+      #myTitle
+        p <em>#{user.title}</em>
     a(href="/logout") Logout
