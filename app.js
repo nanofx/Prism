@@ -43,7 +43,7 @@ passport.deserializeUser(Account.deserializeUser());
 
 // mongoose
 //mongoose.connect('mongodb://localhost/passport_local_mongoose_express4');
-mongoose.connect('mongodb://heroku_rnc4mflm:o3n4a25jnrps3hmdloerjrsd5l@ds011218.mongolab.com:11218/heroku_rnc4mflm');
+mongoose.connect('mongodb+srv://nanofx:<password>@insta.61yj3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
